@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DILab — Colaboración con Empresas</title>
+  <meta name="description" content="DILab colabora con empresas para aplicar Operational Research e Inteligencia Artificial a sus procesos, impulsando decisiones basadas en datos y optimización prescriptiva." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadein {
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+    }
+  </style>
+</head>
+
+<body class="antialiased text-slate-800 bg-slate-50">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center text-white font-semibold">DL</div>
+        <div>
+          <a href="index.html" class="text-lg font-semibold">DILab</a>
+          <div class="text-xs text-slate-500">Decision Intelligence Lab</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm items-center">
+        <a href="index.html#usuarios" class="hover:underline">Público</a>
+        <a href="#oferta" class="hover:underline">Qué ofrecemos</a>
+        <a href="#casos" class="hover:underline">Casos</a>
+        <a href="#contacto" class="px-4 py-2 bg-indigo-600 text-white rounded-md">Contactar</a>
+      </nav>
+      <button class="md:hidden">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-6 py-20 grid gap-10 md:grid-cols-2 items-center">
+    <div class="animate-fadein">
+      <h1 class="text-3xl md:text-4xl font-extrabold leading-tight text-slate-900">
+        Llevamos la <span class="text-indigo-600">Inteligencia en Decisiones</span> al corazón de tu operación
+      </h1>
+      <p class="mt-4 text-lg text-slate-600">
+        Desde DILab acompañamos a empresas y organizaciones en la adopción de herramientas a medida, basadas en <strong>Operational Research</strong> e <strong>Inteligencia Artificial</strong>, para transformar datos en decisiones óptimas y medibles.
+      </p>
+      <div class="mt-8">
+        <a href="#contacto" class="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition">
+          Contactar equipo DILab
+        </a>
+      </div>
+    </div>
+
+    <div class="hidden md:flex justify-center animate-fadein">
+      <img src="assets/colaboracion.jpg"
+		 alt="Colaboración academia-empresa en entorno tecnológico" 
+		 class="w-80 h-auto rounded-2xl shadow-lg" >
+    </div>
+  </section>
+
+  <!-- SECCIÓN: QUÉ OFRECE DILAB A LAS EMPRESAS -->
+  <section id="oferta" class="bg-white py-20 animate-fadein">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 text-slate-900">Qué ofrece DILab a las empresas</h2>
+      <p class="text-slate-600 text-lg max-w-3xl mx-auto">
+        A través de proyectos colaborativos, DILab desarrolla y transfiere soluciones de analítica avanzada y optimización prescriptiva. 
+        Ayudamos a las organizaciones a diseñar modelos de decisión basados en datos, OR y algoritmos de inteligencia artificial.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-10 mt-12 text-left">
+        <div class="p-6 rounded-2xl bg-slate-50 shadow-sm hover:shadow-md transition">
+          <h3 class="text-indigo-700 font-semibold mb-2">Modelos de Optimización</h3>
+          <p class="text-slate-600 text-sm">
+            Diseñamos modelos matemáticos y algoritmos que permiten resolver problemas complejos.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-slate-50 shadow-sm hover:shadow-md transition">
+          <h3 class="text-indigo-700 font-semibold mb-2">Prototipado Rápido</h3>
+          <p class="text-slate-600 text-sm">
+            Construimos PoCs funcionales en entornos reales, permitiendo evaluar el impacto y la factibilidad de las soluciones antes de su adopción.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-slate-50 shadow-sm hover:shadow-md transition">
+          <h3 class="text-indigo-700 font-semibold mb-2">Transferencia Tecnológica</h3>
+          <p class="text-slate-600 text-sm">
+            Facilitamos la implementación interna de soluciones, desarrollando junto a personal propio de las organizaciones,
+			y capacitando equipos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: CASOS -->
+  <section id="casos" class="py-20 bg-slate-50 animate-fadein">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-slate-900">Casos y experiencias</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+          <h3 class="text-indigo-700 font-semibold mb-2">Logística</h3>
+          <p class="text-slate-600 text-sm">
+            Modelos de enrutamiento inteligente para distribución en larga distancia o última milla, reduciendo tiempos y costos operativos.
+          </p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+          <h3 class="text-indigo-700 font-semibold mb-2">Planificación de Operaciones</h3>
+          <p class="text-slate-600 text-sm">
+            Sistemas prescriptivos que equilibran capacidad, demanda y recursos, ayudando a los planificadores a decidir con respaldo analítico.
+          </p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+          <h3 class="text-indigo-700 font-semibold mb-2">Asignación de Recursos</h3>
+          <p class="text-slate-600 text-sm">
+            Herramientas basadas en optimización entera y heurísticas que maximizan la eficiencia en asignaciones de personal y equipamiento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección: Experiencias -->
+<section class="bg-slate-50 py-10 mt-6 animate-fadein">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <!-- Carrusel -->
+    <div class="relative overflow-hidden">
+      <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
+        <!-- Testimonio 1 -->
+		<div class="min-w-full px-8">
+		  <p class="text-xl italic text-slate-700 font-serif mb-4">
+			Optización de transporte de caudales 
+		  </p>
+		  <p class="font-semibold text-slate-500 text-lg">— NaranjaX</p>
+		</div>
+
+
+        <!-- Testimonio 2 -->
+        <div class="min-w-full px-8">
+          <p class="text-lg italic text-slate-700 font-serif mb-4">
+            Optimización de despacho de camiones en mina a cielo abierto
+          </p>
+          <p class="font-semibold text-slate-500">— Practia</p>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="min-w-full px-8">
+          <p class="text-lg italic text-slate-700 font-serif mb-4">
+            Optimización de rutas de relevamiento agrícola.
+          </p>
+          <p class="font-semibold text-slate-500">— Bolsa de Cereales de Córdoba</p>
+        </div>
+		
+        <!-- Testimonio 4 -->
+        <div class="min-w-full px-8">
+          <p class="text-lg italic text-slate-700 font-serif mb-4">
+            Plataforma web para la programación de producción, monitoreo en línea y KPIs.
+          </p>
+          <p class="font-semibold text-slate-500">— Starplastic</p>
+        </div>
+		
+		        <!-- Testimonio 5 -->
+        <div class="min-w-full px-8">
+          <p class="text-lg italic text-slate-700 font-serif mb-4">
+            Planificación agregada y MPS. <br/>
+			Soporte a abastecimiento de importados.
+          </p>
+          <p class="font-semibold text-slate-500">— Sohipren</p>
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white rounded-full shadow-md p-2 hover:bg-indigo-100 transition">
+        ‹
+      </button>
+      <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white rounded-full shadow-md p-2 hover:bg-indigo-100 transition">
+        ›
+      </button>
+    </div>
+  </div>
+</section>
+
+	<!-- Script carrusel -->
+	<script>
+	  const carousel = document.getElementById('carousel');
+	  const slides = carousel.children.length;
+	  let index = 0;
+
+	  document.getElementById('next').addEventListener('click', () => {
+		index = (index + 1) % slides;
+		carousel.style.transform = `translateX(-${index * 100}%)`;
+	  });
+
+	  document.getElementById('prev').addEventListener('click', () => {
+		index = (index - 1 + slides) % slides;
+		carousel.style.transform = `translateX(-${index * 100}%)`;
+	  });
+
+	  // Movimiento automático cada 6 segundos
+	  setInterval(() => {
+		index = (index + 1) % slides;
+		carousel.style.transform = `translateX(-${index * 100}%)`;
+	  }, 6000);
+	</script>
+ 
+ 
+
+
+  <!-- CTA -->
+  <section id="contacto" class="py-20 text-center bg-white animate-fadein">
+    <h2 class="text-2xl md:text-3xl font-bold mb-6 text-slate-900">¿Querés conversar con DILab?</h2>
+    <p class="text-slate-600 mb-8 max-w-2xl mx-auto">
+      Si tu organización busca aplicar inteligencia prescriptiva o analítica avanzada a sus operaciones, 
+      nuestro equipo puede ayudarte a evaluar oportunidades y diseñar soluciones a medida.
+    </p>
+    <a href="mailto:" class="bg-indigo-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-indigo-700 transition">
+      Contactar al equipo
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-200 py-10 mt-10 text-center text-slate-600 text-sm">
+    <div class="max-w-6xl mx-auto px-6">
+      <p>DILab — Decision Intelligence Lab</p>
+      <p class="mt-1">FaMAF · Universidad Nacional de Córdoba</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT: animación en scroll -->
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('animate-fadein');
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
+</body>
+</html>

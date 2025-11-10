@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DILab — Decision Intelligence Lab</title>
+  <meta name="description" content="DILab integra Operational Research e Inteligencia Artificial para crear soluciones de Decision Intelligence aplicadas al mundo productivo." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="antialiased text-slate-800 bg-slate-50">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center text-white font-semibold">DI</div>
+        <div>
+          <a href="#" class="text-lg font-semibold">DILab</a>
+          <div class="text-xs text-slate-500">Decision Intelligence Lab</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm items-center">
+        <a href="#usuarios" class="hover:underline">Público</a>
+        <a href="#equipo" class="hover:underline">Equipo</a>
+        <a href="#contacto" class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition">Contactar</a>
+      </nav>
+      <button class="md:hidden text-2xl">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-6 py-16 grid gap-8 md:grid-cols-2 items-center fade-in">
+    <!-- Texto principal con animación -->
+    <div class="animate-fadein">
+      <h1 class="text-3xl md:text-4xl font-extrabold leading-tight text-slate-900">
+        <span class="text-indigo-600">OR/AI</span>  R&D </br>
+      </h1>
+      <p class="mt-4 text-lg text-slate-600">
+        Aplicando <span class="font-semibold text-indigo-600">Investigación de Operaciones</span> e 
+        <span class="font-semibold text-indigo-600">Inteligencia Artificial</span> 
+        a problemas reales de nuestro entorno.
+      </p>
+      <p class="mt-4 text-lg text-slate-600">
+        En DILab impulsamos la aplicación de 
+        <span class="italic">Decision Intelligence</span>, combinando la potencia analítica de la investigación operativa 
+        con la potencia de la IA. </br>
+		Nuestro enfoque conecta la ciencia y tecnología de punta, con problemas que existen 
+		en nuestro medio, procurando diseñar soluciones desde la investigación y el desarrollo.
+      </p>
+      <div class="mt-6">
+        <a href="#contacto" 
+           class="px-6 py-3 bg-indigo-600 text-white rounded-md font-medium shadow hover:bg-indigo-700 transition">
+           Contactar al equipo
+        </a>
+      </div>
+    </div>
+
+    <!-- Imagen (visible solo en pantallas medianas o mayores) -->
+    <div class="hidden md:flex justify-center">
+      <img src="assets/head.png" 
+           alt="Decision Intelligence Illustration" 
+           class="w-80 h-auto drop-shadow-lg">
+    </div>
+  </section>
+  
+  <!-- Animación personalizada -->
+  <style>
+    @keyframes fadein {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadein {
+      animation: fadein 1.2s ease-out;
+    }
+  </style>
+
+
+<!-- PÚBLICO DILAB -->
+<section id="usuarios" class="bg-white py-20 border-t border-slate-200  fade-in">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 animate-fadein">
+      Público DILab
+    </h2>
+    <p class="text-lg text-slate-600 max-w-3xl mx-auto mb-12 animate-fadein">
+      DILab conecta el conocimiento científico con la realidad productiva, generando impacto tanto en la formación avanzada como en la transformación de procesos industriales.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-10 mt-10">
+      <!-- Bloque 1: Estudiantes -->
+	<a href="estudiantes.html" class="block hover:cursor-pointer">
+      <div class="bg-slate-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition animate-fadein">
+        <div class="flex justify-center mb-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/5850/5850276.png" alt="Estudiantes" class="w-16 h-16">
+        </div>
+        <h3 class="text-xl font-semibold text-indigo-700 mb-3">Estudiantes y Jóvenes Investigadores</h3>
+        <p class="text-slate-600 leading-relaxed">
+          DILab es un espacio para quienes buscan aplicar sus conocimientos en proyectos reales, desarrollando herramientas y modelos de optimización e inteligencia artificial orientados al impacto en la industria.
+        </p>
+      </div>
+	</a> 
+      <!-- Bloque 2: Empresas -->
+	<a href="empresas.html" class="block hover:cursor-pointer">
+		  <div class="bg-slate-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition animate-fadein">
+			<div class="flex justify-center mb-4">
+			  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Empresas" class="w-16 h-16">
+			</div>
+			<h3 class="text-xl font-semibold text-indigo-700 mb-3">Empresas y Organizaciones</h3>
+			<p class="text-slate-600 leading-relaxed">
+			  Acompañamos a empresas que buscan integrar analítica avanzada en su operación. Diseñamos soluciones prescriptivas basadas en <em>Operational Research</em> e <em>IA</em>, enfocadas en mejorar eficiencia, planificación y toma de decisiones.
+			</p>
+		  </div>
+	</a>	
+
+    </div>
+  </div>
+</section>
+
+
+<!-- EQUIPO DILAB -->
+<section id="equipo" class="bg-slate-50 py-20 border-t border-slate-200  fade-in">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 animate-fadein">
+      Equipo DILab
+    </h2>
+    <p class="text-lg text-slate-600 max-w-3xl mx-auto mb-12 animate-fadein">
+      El equipo del DILab integra profesionales e investigadores de distintas áreas del conocimiento, unidos por un objetivo común: transformar métodos avanzados de análisis y optimización en soluciones prácticas para el mundo real.
+    </p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 animate-fadein">
+      <!-- Bloque 1 -->
+      <div class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+        <div class="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png" alt="Matemática aplicada" class="w-14 h-14">
+        </div>
+        <h3 class="font-semibold text-indigo-700 mb-2">Matemática Aplicada</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Desarrollo de modelos cuantitativos, optimización y simulación para la toma de decisiones complejas.
+        </p>
+      </div>
+
+      <!-- Bloque 2 -->
+      <div class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+        <div class="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/512/2103/2103626.png" alt="Computación" class="w-14 h-14">
+        </div>
+        <h3 class="font-semibold text-indigo-700 mb-2">Computación</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Implementación de algoritmos inteligentes, infraestructura de datos y soluciones escalables en la nube.
+        </p>
+      </div>
+
+      <!-- Bloque 3 -->
+      <div class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+        <div class="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/512/6062/6062667.png" alt="Ingeniería de Software" class="w-14 h-14">
+        </div>
+        <h3 class="font-semibold text-indigo-700 mb-2">Ingeniería de Software</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Desarrollo de plataformas, interfaces y servicios que conectan la analítica con los procesos operativos.
+        </p>
+      </div>
+
+      <!-- Bloque 4 -->
+      <div class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+        <div class="flex justify-center mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/512/1785/1785337.png" alt="Ingeniería Industrial" class="w-14 h-14">
+        </div>
+        <h3 class="font-semibold text-indigo-700 mb-2">Ingeniería Industrial</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Aplicación de modelos prescriptivos y análisis de procesos para generar impacto en productividad y eficiencia.
+        </p>
+      </div>
+    </div>
+
+    <p class="text-slate-500 text-sm mt-12 max-w-3xl mx-auto animate-fadein">
+      La diversidad disciplinar del DILab es su principal fortaleza: ciencia, tecnología y aplicación trabajando en conjunto para construir sistemas de <em>Decision Intelligence</em> que realmente funcionan en contextos productivos.</br>
+	  <br/>DILab surge como un spinoff de la factoría tecnológica de la reconocida Facultad de Matemática, Astronomía, Física y Computación (FaMAF) de la Universidad Nacional de Córdoba, en colaboración con 
+	  el instituto CIEM de CONICET.
+    </p>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-200 py-10 mt-10 text-center text-slate-600 text-sm">
+    <div class="max-w-6xl mx-auto px-6">
+      <p>DILab — Decision Intelligence Lab</p>
+      <p class="mt-1">FaMAF · Universidad Nacional de Córdoba</p>
+    </div>
+  </footer>
+
+
+<script>
+  // Auto year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+<!-- Fade-in on scroll: CSS + JS -->
+<style>
+  /* Base: elementos ocultos hasta entrar en viewport */
+  .fade-in, .animate-fadein {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+    will-change: opacity, transform;
+  }
+
+  /* Clase que activa la animación */
+  .fade-in.visible, .animate-fadein.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Opcional: pequeño control por data-delay (ej: data-delay="0.2") */
+  [data-delay] {
+    transition-delay: var(--delay, 0s);
+  }
+</style>
+
+<script>
+  (function () {
+    // Espera a que DOM esté listo
+    document.addEventListener("DOMContentLoaded", function () {
+      const selector = ".fade-in, .animate-fadein";
+      const nodes = Array.from(document.querySelectorAll(selector));
+
+      if (!('IntersectionObserver' in window)) {
+        // Fallback simple: hacer visible todo si no hay IntersectionObserver
+        nodes.forEach(n => n.classList.add('visible'));
+        return;
+      }
+
+      const ioOptions = {
+        threshold: 0.18,
+        rootMargin: "0px 0px -8% 0px"
+      };
+
+      const io = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const el = entry.target;
+            // si tiene atributo data-delay aplicamos delay CSS dinámicamente
+            const delay = el.getAttribute('data-delay');
+            if (delay) {
+              el.style.setProperty('--delay', `${delay}s`);
+              el.setAttribute('data-delay-applied', 'true');
+            }
+            el.classList.add('visible');
+            observer.unobserve(el);
+          }
+        });
+      }, ioOptions);
+
+      // Observa cada nodo
+      nodes.forEach(n => io.observe(n));
+    });
+  })();
+</script>
+
+
+
+</body>
+</html>
